@@ -1,0 +1,15 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dexinar\.com\.tr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dexinar\.com\.tr$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/www\.dexinar\.com" [R=301,L]
+RewriteCond %{HTTP_HOST} ^etkinlikalani\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.etkinlikalani\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/etkinlikalani\.com" [R=301,L]
+

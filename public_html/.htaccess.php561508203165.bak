@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dexinar\.com\.tr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dexinar\.com\.tr$
+RewriteRule ^/?$ "http\:\/\/www\.dexinar\.com" [R=301,L]
+
