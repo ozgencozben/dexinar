@@ -69,17 +69,15 @@
     <link rel="apple-touch-icon" sizes="114x114" href="#">
     <link rel="apple-touch-icon" sizes="72x72" href="#">
     <link rel="apple-touch-icon" sizes="144x144" href="#">
-
     <!-- Modernizr -->
     <script src="_include/js/modernizr.js"></script>
 
     <!-- Analytics -->
     <script type="text/javascript">
+        window.onload = (event) => {
+            $('.clickclass').click();
 
-function   clickOnDefault()
-{
-    $('.clickclass').click();
-}
+        };
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'Insert Your Code']);
         _gaq.push(['_trackPageview']);
@@ -174,18 +172,20 @@ function   clickOnDefault()
             <div class="row">
                 <div class="span3">
                     <!-- Filter -->
-                  <nav id="options" class="work-nav">
+                    <nav id="options" class="work-nav">
                         <ul id="filters" class="option-set" data-option-key="filter">
                             <li class="type-work">Projects</li>
                             <!-- <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li> -->
-                            <li><a href="#filter" data-option-value=".interiordesign" class="clickclass">Interior Design</a></li>
+                            <li><a href="#filter" data-option-value=".interiordesign" class="clickclass">Interior
+                                    Design</a></li>
                             <li><a href="#filter" data-option-value=".exhibitiondesing">Exhibition & Display Stand </a>
                             </li>
                             <li><a href="#filter" data-option-value=".corporate">Corporate Identity & Graphic Design</a>
                             </li>
-
                         </ul>
+                    <a href="http://dexinar.com/pan.html"  target="_blank" style="color: #0033eb;">360 Degree VR Submissions (Web Only)</a>
                     </nav>
+                   
                     <!-- End Filter -->
                 </div>
 
@@ -207,8 +207,8 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-A1.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								<!-- Item Project and Filter Name -->
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -221,8 +221,8 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-A3.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								<!-- Item Project and Filter Name -->
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -235,8 +235,8 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-A2.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								<!-- Item Project and Filter Name -->
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -249,8 +249,8 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-A4.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								<!-- Item Project and Filter Name -->
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -263,8 +263,8 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-A6.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								<!-- Item Project and Filter Name -->
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -277,10 +277,10 @@ function   clickOnDefault()
                                     <img src="_include/img/work/thumbs/image-01.jpg" alt="Interior Design Project">
                                 </li>
                                 <!-- End Item Project -->
-								
-								
-								
-								<!-- Item Project and Filter Name -->
+
+
+
+                                <!-- Item Project and Filter Name -->
                                 <li class="item-thumbs span3 interiordesign">
                                     <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                     <a class="hover-wrap fancybox" interior design="gallery"
@@ -710,8 +710,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-55.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-55.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -725,8 +724,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-56.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-56.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -740,8 +738,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-57.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-57.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -755,8 +752,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-58.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-58.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -770,8 +766,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-61.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-61.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -785,8 +780,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-62.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-62.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -800,8 +794,7 @@ function   clickOnDefault()
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
                                     <!-- Thumb Image and Description -->
-                                    <img src="_include/img/work/thumbs/image-63.jpg"
-                                        alt="Display Stand Design Project">
+                                    <img src="_include/img/work/thumbs/image-63.jpg" alt="Display Stand Design Project">
                                 </li>
                                 <!-- End Item Project -->
 
@@ -925,6 +918,8 @@ function   clickOnDefault()
                     </div>
                 </div>
             </div>
+
+
             <!-- End Title Page -->
 
             <!-- People -->
@@ -983,6 +978,8 @@ function   clickOnDefault()
 
             </div>
         </div>
+
+
         <!-- End About Section -->
         <br><br>
 
@@ -993,7 +990,7 @@ function   clickOnDefault()
 
                 <!-- Title Page -->
                 <div class="title-page">
-                    <h2 class="title">Get Offer/Teklif Alın</h2>
+                    <h2 class="title">Get Offer / Teklif Alın</h2>
                 </div>
                 <!-- End Title Page -->
 
@@ -1082,23 +1079,13 @@ function   clickOnDefault()
                             </button>
 
                         </h3>
-
                     </div>
-
-
-
             </form>
             <!-- End Profile -->
-
-
             </form>
             <!-- End Profile -->
-
         </div>
     </div>
-
-
-
 
     <br><br>
     <!-- Contact Section -->
@@ -1188,58 +1175,6 @@ function   clickOnDefault()
     </div>
     <!-- End Contact Section -->
 
-    <!-- Twitter Feed -->
-    <!-- <div id="twitter-feed" class="page-alternate">
-	<div class="container">
-    	<div class="row">
-            <div class="span12">
-                <div class="follow">
-                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
-                </div>
-                    
-                <div id="ticker" class="query"> 
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-    <!-- End Twitter Feed -->
-
-    <!-- Socialize -->
-    <!-- <div id="social-area" class="page">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <nav id="social">
-                        <ul>
-                            <li><a href="https://twitter.com" title="Follow Me on Twitter" target="_blank"><span
-                                        class="font-icon-social-twitter"></span></a></li>
-                            <li><a href="http://dribbble.com" title="Follow Me on Dribbble" target="_blank"><span
-                                        class="font-icon-social-dribbble"></span></a></li>
-                            <li><a href="http://forrst.com" title="Follow Me on Forrst" target="_blank"><span
-                                        class="font-icon-social-forrst"></span></a></li>
-                            <li><a href="http://www.behance.net" title="Follow Me on Behance" target="_blank"><span
-                                        class="font-icon-social-behance"></span></a></li>
-                            <li><a href="https://www.facebook.com" title="Follow Me on Facebook" target="_blank"><span
-                                        class="font-icon-social-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com" title="Follow Me on Google Plus" target="_blank"><span
-                                        class="font-icon-social-google-plus"></span></a></li>
-                            <li><a href="http://www.linkedin.com" title="Follow Me on LinkedIn" target="_blank"><span
-                                        class="font-icon-social-linkedin"></span></a></li>
-                            <li><a href="http://themeforest.net" title="Follow Me on ThemeForest" target="_blank"><span
-                                        class="font-icon-social-envato"></span></a></li>
-                            <li><a href="http://zerply.com" title="Follow Me on Zerply" target="_blank"><span
-                                        class="font-icon-social-zerply"></span></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- End Socialize -->
-
     <!-- Footer -->
     <footer>
         <p class="credits"> <a href="http://www.dexinar.com" title="Dexinar - Creative Works"> &copy;2020 Dexinar |
@@ -1268,6 +1203,8 @@ function   clickOnDefault()
     <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
     <script src="_include/js/main.js"></script> <!-- Default JS -->
     <!-- End Js -->
+
+
 
 </body>
 
